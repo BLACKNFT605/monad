@@ -71,6 +71,9 @@ Make a copy of `.env.example` in `packages/nextjs` folder, name it `.env` and en
 
 ```
 NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=
+MONAD_RPC_URL=
+MONAD_CHAIN_ID=
+MONAD_EXPLORER_URL=
 ```
 
 5. On a second terminal, start your NextJS app:
