@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - name: Setup node env
+      - name: Set up node env
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
