@@ -15,7 +15,7 @@ export const monadTestnet = defineChain({
     default: {
       name: "Monad Testnet Blockscout",
       // TODO: Add Explorer URL
-      url: "<MONAD_EXPLORER_URL>",
+      url: "https://testnet.monadexplorer.com",
     },
   },
 });
