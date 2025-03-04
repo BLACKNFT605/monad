@@ -45,8 +45,8 @@ const Home: NextPage = () => {
               <BoltIcon className="h-8 w-8" />
               <p>
                 Get testnet funds from the{" "}
-                <Link href="#" passHref className="link">
-                  {/* TODO: Add Faucet link here */}Faucet
+                <Link href="https://testnet.monad.xyz" passHref className="link" target="_blank">
+                  Faucet
                 </Link>{" "}
               </p>
             </div>
@@ -64,8 +64,8 @@ const Home: NextPage = () => {
               <MagnifyingGlassIcon className="h-8 w-8" />
               <p>
                 Explore your local transactions with the{" "}
-                <Link href="" passHref className="link">
-                  {/* TODO: Add Explorer link here */}Block Explorer
+                <Link href="https://testnet.monadexplorer.com" passHref className="link" target="_blank">
+                  Block Explorer
                 </Link>{" "}
                 tab.
               </p>
